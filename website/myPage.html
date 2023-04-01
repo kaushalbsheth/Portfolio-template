@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/da75f8f559.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>FRONT END DEVELOPER</p>
+                    <h1>Hi, I'm <span>Kaushal Sheth</span><br>from India</h1>
+                </div>
+            </div>
+
+        </div>
+        <!----------------------about--------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello and welcome! My name is Kaushal Sheth, 
+                            and I am a full stack developer and derivatives trader.
+                            With my technical expertise and financial acumen, 
+                            I am able to combine my passions to build innovative and 
+                            efficient solutions for businesses and individuals. 
+                            I am dedicated to staying up-to-date on the latest technologies 
+                            and financial trends, allowing me to provide top-notch services to my clients. 
+                            Thank you for visiting, and I look forward to connecting with you.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Derivatives Trading</span><br>Stock Market Derivatives Trader</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>2019-till date</span><br>Web app Development</li>
+                                <li><span>2020-till date</span><br>Stock Market Derivatives Trader</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020</span><br>Class 12</li>
+                                <li><span>2020-2024</span><br>BTECH ECE SVNIT</li>
+                            </ul>
+
+                        </div>
+
+                    
+                        </div>
+                </div>
+            </div>
+
+        </div>
+        <!----------------------services---------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-regular fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>enuniunceuinv jninenvnurnvuuinenrnj vnnenvninejv</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>enuniunceuinv jninenvnurnvuuinenrnj vnnenvninejv</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-money-bill-trend-up"></i>
+                        <h2>Trading</h2>
+                        <p>enuniunceuinv jninenvnurnvuuinenrnj vnnenvninejv</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!------------------------------portfolio------------------------------------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Hotel Management App</h3>
+                            <p>A GUI based hotel management app is a software application designed to help hotel managers and staff streamline their daily operations. The app usually consists of a user-friendly graphical user interface (GUI) 
+                                hat allows users to easily navigate and access various features and functions.</p>
+                            <a href="#"><i class="fa-regular fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Library Management App</h3>
+                            <p>A GUI based hotel management app is a software application designed to help hotel managers and staff streamline their daily operations. The app usually consists of a user-friendly graphical user interface (GUI) 
+                                hat allows users to easily navigate and access various features and functions.</p>
+                            <a href="#"><i class="fa-regular fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>HCI  using Hand Gesture</h3>
+                            <p>A GUI based hotel management app is a software application designed to help hotel managers and staff streamline their daily operations. The app usually consists of a user-friendly graphical user interface (GUI) 
+                                hat allows users to easily navigate and access various features and functions.</p>
+                            <a href="#"><i class="fa-regular fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!------------------------Contact---------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-envelope"></i>kaushalbsheth@gmail.com</p>
+                        <p><i class="fa-duotone fa-phone"></i>+91 9157979549</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Kaushal. Made by Kaushal Sheth</p>
+            </div>
+        
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";                
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxkMvR6P5uuHG2INjzXBOjyRFK4VAwacypodSc9apS9oXSP6ohm32FDhFM58nCofSZL/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+
+</html>
